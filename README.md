@@ -18,6 +18,7 @@ Overall, the results were credible, as shown in the figure below, the results de
 
 <img width="518" alt="Screen Shot 2023-05-13 at 5 13 18 AM" src="https://github.com/anthonyjzhang/Facial-Recognition/assets/97823062/1d612d63-c713-48f9-9f7f-2fe95d473ab4">
 
+
 The results were promising because a high degree of accuracy was achieved using the dataset with reduced dimensions when classifying faces and non-faces, as well as distinguishing between different people. In order to improve these results in the future, in addition to dimension reduction, feature selection methods could be explored prior to classification in order to determine the most informative features for classification.
 
 ## Running the Application
