@@ -90,6 +90,7 @@ cumsum = np.cumsum(pca.explained_variance_ratio_)
 
 # Plot cunulative sum of explained variance ratio
 plt.plot(cumsum)
+
 # Scatter the points when the ratio is in the ratios list
 for ratio in ratios:
     plt.scatter(np.where(cumsum >= ratio)[0][0], ratio, color = 'red')
@@ -97,4 +98,3 @@ plt.title('Cumulative Sum of Explained Variance Ratio')
 plt.xlabel('Number of Principal Components')
 plt.ylabel('Cumulative Sum of Explained Variance Ratio')
 plt.show()
-print('hi')

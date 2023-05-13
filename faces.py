@@ -16,7 +16,7 @@ faces = faces.T
 # add all index by 1
 faces.index = faces.index + 1
 
-#show csv data
+# Show csv data
 print(faces)
 
 # create a for loop to plot all the faces in ten different figures

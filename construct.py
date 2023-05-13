@@ -24,13 +24,13 @@ def concat_data(filename):
     nonface = pca.transform(nonface)
     nonface = pd.DataFrame(nonface)
 
-    # pick up first 90 rows of faces, label the first 10 as 1, then 2, and so on
+    # Pick up first 90 rows of faces, label the first 10 as 1, then 2, and so on
     faces = faces.iloc[0:90,:]
     faces['label'] = 10*[1]+10*[2]+10*[3]+10*[4]+10*[5]+10*[6]+10*[7]+10*[8]+10*[9]
-    # label the nonface data as 0
+    # Label the nonface data as 0
     nonface['label'] = 400*[0]
     
-    # concat the faces and nonface data
+    # Concatenate the faces and nonface data
     data = pd.concat([faces, nonface], ignore_index=True)
     return data
 

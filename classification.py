@@ -18,7 +18,6 @@ from sklearn import metrics
 data_raw = pd.read_csv('clf_raw.csv',header=None)
 data_raw.rename(columns={data_raw.columns[-1]:'label'}, inplace=True)
 print(data_raw)
-print('hi')
 
 def cvs(X,y,clf):
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
@@ -100,9 +99,9 @@ for i in filenames:
 
 # Plot accuracy of different PCA precentages
 plt.plot([61,70,80,85,90,100],acc)
-plt.xlabel('PCA precentage')
+plt.xlabel('PCA Precentage')
 plt.ylabel('Accuracy')
-plt.title('Accuracy of different PCA precentage')
+plt.title('Accuracy of Different PCA Precentages')
 plt.show()
 
 # MULTIPLE CLASSIFICATION
@@ -124,9 +123,9 @@ for i in filenames:
     print('-'*50)
     acc.append(np.mean(scores))
 
-# Plot the accuracy of different PCA precentage
+# Plot accuracy of different PCA precentages
 plt.plot([61,70,80,85,90,100],acc)
-plt.xlabel('PCA precentage')
+plt.xlabel('PCA Precentage')
 plt.ylabel('Accuracy')
-plt.title('Accuracy of different PCA precentage')
+plt.title('Accuracy of Different PCA Precentages')
 plt.show()
