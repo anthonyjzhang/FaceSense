@@ -1,10 +1,13 @@
-# Facial Recognition
+# 👥 Facial Recognition
 
 ## Background
 This project is based on the famous "Eigenfaces" paper, where a facial recognition system using Principle Component Analysis (PCA) algorithm was implemented. PCA is a unsupervised machine learning technique used for reducing the dimensionality of data. In the file titled 'faces.txt', there are 400 112x92 pixel greyscale images of 40 distinct people (10 images per person). The file titled 'nonfaces.txt' similarly includes 112x92 greyscale images, but of nonfaces (random objects). Using PCA, the features of this large dataset are reduced such that a small set of significant features are used to describe the variation between distinct facial images. After dimension reduction, the algorithm attempts to use supervised machine learning classification techniques like K-nearest Neighbors and Random Forests to classify an image as Unknown, Face, and Not a Face, as well as distinguish between separate faces, i.e. distinguish between Subject A, Subject B, Subject C, and so forth. An example of the facial and nonfacial images is shown below:
 
 ![image](https://github.com/anthonyjzhang/Facial-Recognition/assets/97823062/210240c9-6be8-4a38-8be4-125b78d29516)
 ![image](https://github.com/anthonyjzhang/Facial-Recognition/assets/97823062/4f24b517-bde6-44df-8df5-afb3f57eeba5)
+
+## Softwares and Technologies
+First, this program utilizes the Sklearn package, which provides tools for machine learning and statistical modeling in Python. Specifically, Sklearn is used in this project for classification, regression, dimensionality reduction, and error/accuracy analysis (confusion matrix, cross validation score, etc). Additionally, the seaborn Python package is used for data visualization and drawing statistical graphics to display interpretable results. The Pandas library was used to analyze big text data files, and to clean these datasets into a readable and analyzable format. Matplotlib was used to create static data visualizations, and NumPy was used for simple mathematical operations.
 
 ## Program
 
