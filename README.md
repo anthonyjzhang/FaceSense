@@ -6,9 +6,6 @@ This project is based on the famous "Eigenfaces" paper, where a facial recogniti
 ![image](https://github.com/anthonyjzhang/Facial-Recognition/assets/97823062/210240c9-6be8-4a38-8be4-125b78d29516)
 ![image](https://github.com/anthonyjzhang/Facial-Recognition/assets/97823062/4f24b517-bde6-44df-8df5-afb3f57eeba5)
 
-## Softwares and Technologies
-This program is coded in Python, and is built with numerous open source Python data analysis and machine learning libraries. First, this program utilizes the Sklearn package, which provides tools for machine learning and statistical modeling in Python. Specifically, Sklearn is used in this project for classification, regression, dimensionality reduction, and error/accuracy analysis (confusion matrix, cross validation score, etc). Additionally, the seaborn Python package is used for data visualization and drawing statistical graphics to display interpretable results. The Pandas library was used to analyze big text data files, and to clean these datasets into a readable and analyzable format. Matplotlib was used to create static data visualizations, and NumPy was used for simple mathematical operations.
-
 ## Program
 
 ### Results
