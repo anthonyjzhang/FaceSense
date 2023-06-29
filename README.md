@@ -1,4 +1,4 @@
-# 👥 Facial Recognition
+# 👥 FaceSense
 
 ## Background
 This project is based on the famous "Eigenfaces" paper, where a facial recognition system using Principal Component Analysis (PCA) algorithm was implemented. PCA is a unsupervised machine learning technique used for reducing the dimensionality of data. In the file titled 'faces.txt', there are 400 112x92 pixel greyscale images of 40 distinct people (10 images per person). The file titled 'nonfaces.txt' similarly includes 112x92 greyscale images, but of nonfaces (random objects). Using PCA, the features of this large dataset are reduced such that a small set of significant features are used to describe the variation between distinct facial images. After dimension reduction, the algorithm attempts to use supervised machine learning classification techniques like K-nearest Neighbors and Random Forests to classify an image as Unknown, Face, and Not a Face, as well as distinguish between separate faces, i.e. distinguish between Subject A, Subject B, Subject C, and so forth. An example of the facial and nonfacial images is shown below:
